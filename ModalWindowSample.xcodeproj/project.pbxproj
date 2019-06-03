@@ -15,6 +15,8 @@
 		D0A92A5322A4BF7800F69286 /* SheetWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A92A5122A4BF7800F69286 /* SheetWindowController.xib */; };
 		D0A92A5722A4BF8300F69286 /* ModalWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A92A5522A4BF8300F69286 /* ModalWindowController.m */; };
 		D0A92A5822A4BF8300F69286 /* ModalWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A92A5622A4BF8300F69286 /* ModalWindowController.xib */; };
+		D0A92A5C22A4DA7000F69286 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A92A5A22A4DA7000F69286 /* MainWindowController.m */; };
+		D0A92A5D22A4DA7000F69286 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0A92A5B22A4DA7000F69286 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		D0A92A5422A4BF8200F69286 /* ModalWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalWindowController.h; sourceTree = "<group>"; };
 		D0A92A5522A4BF8300F69286 /* ModalWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalWindowController.m; sourceTree = "<group>"; };
 		D0A92A5622A4BF8300F69286 /* ModalWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModalWindowController.xib; sourceTree = "<group>"; };
+		D0A92A5922A4DA7000F69286 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		D0A92A5A22A4DA7000F69286 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		D0A92A5B22A4DA7000F69286 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,9 @@
 				D0A92A3522A4BC1E00F69286 /* AppDelegate.m */,
 				D0A92A3722A4BC2000F69286 /* Assets.xcassets */,
 				D0A92A3922A4BC2000F69286 /* MainMenu.xib */,
+				D0A92A5922A4DA7000F69286 /* MainWindowController.h */,
+				D0A92A5A22A4DA7000F69286 /* MainWindowController.m */,
+				D0A92A5B22A4DA7000F69286 /* MainWindowController.xib */,
 				D0A92A4F22A4BF7800F69286 /* SheetWindowController.h */,
 				D0A92A5022A4BF7800F69286 /* SheetWindowController.m */,
 				D0A92A5122A4BF7800F69286 /* SheetWindowController.xib */,
@@ -142,6 +150,7 @@
 				D0A92A3822A4BC2000F69286 /* Assets.xcassets in Resources */,
 				D0A92A3B22A4BC2000F69286 /* MainMenu.xib in Resources */,
 				D0A92A5822A4BF8300F69286 /* ModalWindowController.xib in Resources */,
+				D0A92A5D22A4DA7000F69286 /* MainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A92A5C22A4DA7000F69286 /* MainWindowController.m in Sources */,
 				D0A92A5222A4BF7800F69286 /* SheetWindowController.m in Sources */,
 				D0A92A3E22A4BC2000F69286 /* main.m in Sources */,
 				D0A92A3622A4BC1E00F69286 /* AppDelegate.m in Sources */,
