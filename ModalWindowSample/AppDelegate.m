@@ -7,9 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "SheetWindowController.h"
+#import "ModalWindowController.h"
 
 @interface AppDelegate ()
-
+@property (weak) IBOutlet NSTextField *resultLabel;
+@property SheetWindowController *sheetWindowController;
+@property ModalWindowController *modalWindowController;
 @property (weak) IBOutlet NSWindow *window;
 @end
 
@@ -24,5 +28,23 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)openSheet:(id)sender {
+    
+}
+
+- (IBAction)openModalWindow:(id)sender {
+    ModalWindowController *modalWindowController = [[ModalWindowController alloc] init];
+    _modalWindowController = modalWindowController;
+    
+    NSModalResponse result = [NSApp runModalForWindow:_modalWindowController.window];
+    NSMutableString *resultMessage = [NSMutableString stringWithString: @"ModalWindowResponse: "];
+    if (result == NSModalResponseOK) {
+        [resultMessage appendString:@"OK"];
+        
+    } else if (result == NSModalResponseCancel) {
+         [resultMessage appendString:@"Cancel"];
+    }
+    _resultLabel.stringValue = resultMessage;
+}
 
 @end
