@@ -29,6 +29,12 @@
 }
 
 - (IBAction)openSheet:(id)sender {
+    SheetWindowController *sheetWindowController = [[SheetWindowController alloc] init];
+    _sheetWindowController = sheetWindowController;
+    
+    [self.window beginSheet:_sheetWindowController.window  completionHandler:^(NSModalResponse returnCode) {
+        
+    }];
     
 }
 

@@ -15,7 +15,7 @@
 @implementation ModalWindowController
 - (id)init {
     if (self = [super initWithWindowNibName:[self className] owner:self]) {
-    
+        
     }
     return self;
 }
